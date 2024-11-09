@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    background-image:Url('https://th.bing.com/th/id/R.ba01d095b9f9a650e61d8f49d2b28519?rik=rVVFOj18ozgpZw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f05%2fMath-Mathematics-Formula-Wallpaper-for-PC.jpg&ehk=%2bfTho6j8Ym8wGaYhOjf%2bGXs56O7AyL38fNlEbHjIzqQ%3d&risl=&pid=ImgRaw&r=0') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+font-family: sans-serif;
+outline: none;
+color: rgb(241, 245, 247);
+font-style: bold;
+}
+.container{
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh; 
+}.calculater{
+    display: grid;
+grid-template-columns: repeat(4,68px);
+border-radius: 10px;
+background-color: white;
+padding: 15px;
+border-radius:10px ;
+box-shadow:inset 5px 5px 12px rgb(15, 70, 188),
+ 5px 5px 12px rgb(228, 26, 26);
+
+}input{
+    grid-column:span 4 ;
+    box-shadow:inset 5px 5px 12px rgb(248, 250, 253),
+    5px 5px 12px rgb(19, 157, 212);
+   border-radius: 20px;
+   color:rgb(246, 238, 238);
+   font-size: 50px;
+    text-align: end;
+   padding:10px;
+}
+button{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    box-shadow:inset 5px 5px 12px rgb(248, 250, 253),
+    5px 5px 12px rgb(19, 157, 212);
+   border: 0;
+  margin: 10px;
+}.equal{
+    width: 114px;
+    border-radius: 30px;
+}
